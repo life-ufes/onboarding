@@ -1,4 +1,4 @@
-# Onboarding da frente de desenvolvimento
+# *Onboarding* da frente de desenvolvimento
 
 A ideia principal do *onboarding* de desenvolvimento é que o novo membro seja capaz de aprender/exercitar os conceitos básicos das seguintes ferramentas:
 
@@ -116,9 +116,10 @@ Agora, você está mais preparado para encarar uma playlist explicando os princi
 - [Curso Angular 13](https://www.youtube.com/playlist?list=PLnDvRpP8Bnex2GQEN0768_AxZg_RaIGmw)
 
 
-**Nota:** a IDE que o time usa para desenvolver com Angular é a [Web Storm](https://www.jetbrains.com/webstorm/)
-- Como aluno da universidade, você pode usar o seu e-mail institucional para obter todas as IDEs PRO da JetBrains de maneira gratuita
-- Todavia, caso não queira, você pode utilizar a versão community. Ela é mais do que suficiente
+**Nota:** a IDE que o time usa para desenvolver com Angular é o [VS Code](https://code.visualstudio.com/), que é gratuito tanto para windows, quanto para Linux. Junto ao VS Code, você de instalar os seguintes plugins para aumentar sua produtividade:
+- Angular Extension Pack 
+- VSCode simpler Icons with Angular
+  
 
 ___
 ## Android com Kotlin
