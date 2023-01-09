@@ -23,6 +23,7 @@ O principal objetivo do *onboarding* é iniciar um novo membro do projeto para c
 ## *Onboarding* de desenvolvimento
 
 O *onboarding* de desenvolvimento está disponível [neste documento](dev/onboarding.md). A ideia principal é que o novo membro seja capaz de aprender/exercitar os conceitos básicos das seguintes ferramentas:
+- Kanban
 - Git
 - Docker
 - MySQL

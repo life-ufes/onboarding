@@ -2,6 +2,7 @@
 
 A ideia principal do *onboarding* de desenvolvimento é que o novo membro seja capaz de aprender/exercitar os conceitos básicos das seguintes ferramentas:
 
+- Kanban
 - Git
 - Docker
 - MySQL
@@ -17,6 +18,12 @@ Cada um dos tópicos tem sua própria seção que contém links para tutoriais, 
 **Nota 1**: o material aqui listado não é definitivo. Nada impede que você busque conhecimento em outras fontes. Inclusive, caso encontre fonte melhores, sinta-se livre para complementar esse *onboarding*.
 
 **Nota 2**: caso você domine um assunto, você pode pular ou assitir de maneira mais rápida apenas para relembrar. Não é porque uma playlist tenha 20h de vídeos, por exemplo, que você é obrigado a assistir tudo. Ninguém melhor do que você mesmo para entender o que precisa ser relembrado ou aprendido.
+
+___
+
+## Kanban
+O Kanban é o método de gerenciamento das atividades que utilizamos no projeto. O seu uso é bem simples e você precisa aprender apenas os conceitos básicos. Portanto, assistir o vídeo a seguir é o suficiente:
+- [Aprenda Kanban em 9 minutos (Desenvolvimento Ágil de Software)](https://www.youtube.com/watch?v=WjZBnYa58B4)
 
 ___
 
@@ -125,7 +132,17 @@ ___
 ## Android com Kotlin
 No passado, o aplicativo do projeto era desenvolvido utilizando [React-native](https://reactnative.dev/) para que funcionasse tanto para Android quanto iOS. Porém, atualmente, o app precisa rodar apenas em Tablets Galaxy S6, o que facilita bastante o desenvolvimento, uma vez que sabemos o device alvo. Nesse sentido, o desenvolvimento foi migrado para um app nativo em Android utilizando Kotlin.
 
-Obviamente, o primeiro passo para é entender o básico de Android. Para isso, você pode consultar o material a seguir:
+Aqui você possui duas opções de fluxo:
+
+1) Você pode utilizar a sequência da disciplina de Desenvolvimento de Aplicativos Móveis do Prof. André Pacheco:
+  - [Notas de aula em formato de slides](https://drive.google.com/drive/folders/1WU1O8HL-0y9rUpaUmuyBvp52V3efHG9n?usp=sharing)
+  - [Repositório com códigos exemplos](https://github.com/mobile-dev-ufes/material-disciplina)
+
+
+2) Você pode utililizar os links a seguir:
+
+
+O primeiro passo para é entender o básico de Android. Para isso, você pode consultar o material a seguir:
 - Introdução ao Kotlin
   - [Parte 1](https://docs.google.com/presentation/d/15lj9SM677vVn0s9szQuEELlpZ05dCJZJurZVJOlSYdU/edit?usp=sharing)
   - [Parte 2](https://docs.google.com/presentation/d/1L2JQZrXHqbFjYg2DGAbgAngXhr7X5Y-KwQ45SiIoWPI/edit?usp=sharing)
