@@ -32,7 +32,7 @@ O *onboarding* de desenvolvimento está disponível [neste documento](dev/onboar
 - Android com Kotlin
 
 ## *Onboarding* de pesquisa
-O *onboarding* de pesquisa é um pouco mais complexo uma vez que demanda bastante conhecimento de inteligência artificial / *machine learning*. Ele está disponível [neste documento](pesquisa/onboarding.md) Normalmente, quem novos membros que participam dessa frente possui algum interesse científico, seja uma iniciação científica, projeto de graduação, mestrado ou doutorado. Adquirir o conhecimento mínimo para ser produtivo nessa frente pode exigir alguns meses. Todavia, nada impede de qualquer membro se aventurar nessa área. 
+O *onboarding* de pesquisa é um pouco mais complexo uma vez que demanda bastante conhecimento de inteligência artificial / *machine learning*. Ele está disponível [neste documento](pesquisa/onboarding.md) Normalmente, quem novos membros que participam dessa frente possui algum interesse científico, seja uma iniciação científica, projeto de graduação, mestrado ou doutorado. Adquirir o conhecimento mínimo para ser produtivo nessa frente vai exigir meses/anos. Todavia, nada impede de qualquer membro se aventurar nessa área. 
 
 De maneira geral, o *onboarding* de pesquisa tem como objetivo o aprendizado e exercício das seguintes competências:
 - O básico de cálculo, álgebra e estatística
