@@ -59,7 +59,7 @@ Todos os links para os tutoriais são listados na sequência:
 ### Criando o ambiente de desenvolvimento
 Para criar o ambiente de desenvolvimento é necessário levantar diversos containers. Para treinar essa habilidade, primeiro você pode assistir [essa video aula](https://www.youtube.com/watch?v=c-Bq6JUfRnk).
 
-Todavia, os `Dockerfiles` e `Docker compose` para criação do ambiente estão disponíveis dentro do repositório dos respectivos módulos dos projetos (**TODO**: colocar link quando estiverem prontos). Em resumo, as imagens utilizadas para criar o ambiente de desenvolvimento são listadas a seguir: (**TODO**: colocar link quando estiverem prontos):
+Todavia, os `Dockerfiles` e `Docker compose` para criação do ambiente estão disponíveis dentro do repositório dos respectivos módulos dos projetos ([link acessível para membros do projeto](https://github.com/pad-ufes/dockerfiles)). Em resumo, as imagens utilizadas para criar o ambiente de desenvolvimento são listadas a seguir:
 - MySQL
 - PHPMyAdmin
 - Spring Boot
@@ -119,14 +119,22 @@ O Angular é framework utilizado para fazer o frontend do sistema. Então primei
 O Angular é programado usando o Typescript. Sendo assim, é interessante que dê uma olhada nos principais conceitos da linguagem antes de prosseguir:
 - [Curso de Typescript na prática - Aprenda Typescript em 1h](https://www.youtube.com/watch?v=lCemyQeSCV8)
 
-Agora, você está mais preparado para encarar uma playlist explicando os principais conceitos do Angular:
+Agora, você está mais preparado para encarar uma playlist explicando os principais conceitos do Angular. Porém, o Angular está em constante atualização. Mesmo que você aprenda com uma versão mais antiga, os conceitos bases continuam os mesmo. A seguir existem duas sugestões, você pode escolher qual usar:
 - [Curso Angular 13](https://www.youtube.com/playlist?list=PLnDvRpP8Bnex2GQEN0768_AxZg_RaIGmw)
+- [Curso Angular com Spring Boot](https://www.youtube.com/watch?v=qJnjz8FIs6Q&list=PLGxZ4Rq3BOBpwaVgAPxTxhdX_TfSVlTcY)
+
+Também existe um [tutorial falando sobre o Angular mais moderno](https://www.youtube.com/watch?v=6jZ0ewVQP0Y&list=PLGxZ4Rq3BOBr-GEzf90FxQWqbskI682o2), que introduziu o conceito de remoção dos módulos.
 
 
 **Nota:** a IDE que o time usa para desenvolver com Angular é o [VS Code](https://code.visualstudio.com/), que é gratuito tanto para windows, quanto para Linux. Junto ao VS Code, você de instalar os seguintes plugins para aumentar sua produtividade:
 - Angular Extension Pack 
 - VSCode simpler Icons with Angular
-  
+- ESLinter (importante para ter um padrão de códificação)
+
+### Testes com Angular
+- Tutorial rápido de como realizar testes com o Angular: [Vídeo](https://www.youtube.com/watch?v=bRkD7aYMbow)
+- Documentação necessária: [Jasmine](https://jasmine.github.io/pages/docs_home.html) | [Karma](https://karma-runner.github.io/6.4/config/configuration-file.html)
+- Projeto de treinamento feito pelo Rafael para praticar: [Repositório](https://github.com/rsadr0pyz/testing-presentation)  
 
 ___
 ## Android com Kotlin
