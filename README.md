@@ -20,6 +20,13 @@ Dessa maneira, como o projeto possui duas frentes, é natural que exista um *onb
 
 O principal objetivo do *onboarding* é iniciar um novo membro do projeto para com as ferramentas utilizadas nele. A ideia é que o novo membro primeiro adquira um certo nível conhecimento dentro do ambiente utilizado antes de começar a solucionar tarefas relacionadas aos projetos que estão em funcionamento. Essa é uma estratégia muito comum em empresas e que tende a fazer com que a integração do novo membro seja mais suave, uma vez que ele não será "jogado" dentro do código principal do software, que tende a ser de milhares de linhas. 
 
+____
+**Atenção:** todos o onboarding te oferece um caminho e links para tutorias de como percorrer o caminho. Três pontos são muito importantes:
+1. Somente você sabe o seu nível de conhecimento em cada tópico. Logo, é você que define se você pode avançar ou não.
+2. Você não é obrigado a utilizar os tutorias fornecidos. Caso encontre outro melhor ou que prefira, fique a vontade. Alias, é recomendável que explore outra literatura e, caso tenha sugestão para atualizar esse onboarding, fique a vontade.
+3. Você **não** vai aprender por osmose! Apenas assistir os vídeos é a receita para o fracasso. É necessário praticar! Tente replicar o que está vendo e faça o mini-projeto recomendado!
+____
+
 ## *Onboarding* de desenvolvimento
 
 O *onboarding* de desenvolvimento está disponível [neste documento](dev/onboarding.md). A ideia principal é que o novo membro seja capaz de aprender/exercitar os conceitos básicos das seguintes ferramentas:
