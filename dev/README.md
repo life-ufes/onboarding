@@ -35,7 +35,7 @@ O Git é parte fundamental para programação em time. Muito provavelmente você
 - [O que é GitFlow](https://www.youtube.com/watch?v=JyyGm4S3YaM)
 - [Git Cheat Sheet](https://www.git-tower.com/blog/git-cheat-sheet)
 
-O Gitflow utilizado no projeto é descrito no [repositório de documentação](https://github.com/pad-ufes/docs).
+O Gitflow utilizado nos projetos é descrito no [repositório de documentação](https://github.com/life-ufes/docs).
 
 
 ___
@@ -59,11 +59,8 @@ Todos os links para os tutoriais são listados na sequência:
 ### Criando o ambiente de desenvolvimento
 Para criar o ambiente de desenvolvimento é necessário levantar diversos containers. Para treinar essa habilidade, primeiro você pode assistir [essa video aula](https://www.youtube.com/watch?v=c-Bq6JUfRnk).
 
-Todavia, os `Dockerfiles` e `Docker compose` para criação do ambiente estão disponíveis dentro do repositório dos respectivos módulos dos projetos ([link acessível para membros do projeto](https://github.com/pad-ufes/dockerfiles)). Em resumo, as imagens utilizadas para criar o ambiente de desenvolvimento são listadas a seguir:
-- MySQL
-- PHPMyAdmin
-- Spring Boot
-- Angular
+No projeto que você vai trabalhar, o ambiente de desenvolvimento é criado utilizando o `docker compose`. O arquivo `docker-compose.yml` estará disponível no repositório do projeto. Quando chegar nesse ponto, consulte os demais membros do time para entender como o ambiente de desenvolvimento funciona.
+
 
 ## MySQL
 O MySQL é nosso servidor de banco de dados. Neste projeto o banco de dados é gerenciado pelo framework Spring Boot (que será o próximo tópico desse *onboarding*). Ele é quem vai criar as tabelas do banco, gerenciar as entradas, realizar as consultas, etc.
