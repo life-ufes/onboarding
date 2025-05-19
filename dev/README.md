@@ -132,7 +132,7 @@ Também existe um [tutorial falando sobre o Angular mais moderno](https://www.yo
 - Tutorial rápido de como realizar testes com o Angular: [Vídeo](https://www.youtube.com/watch?v=bRkD7aYMbow)
 - Documentação necessária: [Jasmine](https://jasmine.github.io/pages/docs_home.html) | [Karma](https://karma-runner.github.io/6.4/config/configuration-file.html)
 - Projeto de treinamento feito pelo Rafael para praticar: [Repositório](https://github.com/rsadr0pyz/testing-presentation)  
-
+- Também foi desenvolvido diversos utilitários para acelerar o uso do framework no projeto. Cheque sua documentação [aqui](https://github.com/pad-ufes/docs/blob/main/testing/testes_software.md).
 ___
 ## Android com Kotlin
 No passado, o aplicativo do projeto era desenvolvido utilizando [React-native](https://reactnative.dev/) para que funcionasse tanto para Android quanto iOS. Porém, atualmente, o app precisa rodar apenas em Tablets Galaxy S6, o que facilita bastante o desenvolvimento, uma vez que sabemos o device alvo. Nesse sentido, o desenvolvimento foi migrado para um app nativo em Android utilizando Kotlin.
