@@ -36,6 +36,7 @@ O *onboarding* de desenvolvimento está disponível [neste documento](dev/README
 - MySQL
 - Spring Boot com Java
 - Angular com Typescript
+- Spring Boot com Kotlin (Opcional)
 - Android com Kotlin
 
 ## *Onboarding* de pesquisa

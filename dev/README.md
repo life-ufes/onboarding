@@ -8,6 +8,7 @@ A ideia principal do *onboarding* de desenvolvimento é que o novo membro seja c
 - MySQL
 - Spring Boot com Java
 - Angular com Typescript
+- Spring Boot com Kotlin (Opcional)
 - Android com Kotlin
 
 É importante destacar que toda parte de Android é destinada para aqueles membros que vão trabalhar nos aplicativos do projeto. Os demais tópicos, são destinados ao desenvolvimento e manutenção do sistema web.
@@ -133,6 +134,34 @@ Também existe um [tutorial falando sobre o Angular mais moderno](https://www.yo
 - Documentação necessária: [Jasmine](https://jasmine.github.io/pages/docs_home.html) | [Karma](https://karma-runner.github.io/6.4/config/configuration-file.html)
 - Projeto de treinamento feito pelo Rafael para praticar: [Repositório](https://github.com/rsadr0pyz/testing-presentation)  
 - Também foi desenvolvido diversos utilitários para acelerar o uso do framework no projeto. Cheque sua documentação [aqui](https://github.com/pad-ufes/docs/blob/main/testing/testes_software.md).
+
+___
+## Spring Boot com Kotlin (Opcional)
+O framework do Spring Boot habilita, também, a programação em Kotlin, uma linguagem criada pela [JetBrains](https://www.jetbrains.com/), com o objetivo de tornar a programação para JVM mais limpa e moderna. Esta etapa é opcional: se você prefere trabalhar exclusivamente com Java, pode seguir diretamente para a próxima seção.
+
+Alguns motivos para usar Kotlin:
+- **Null Safety:** a linguagem diferencia, em tempo de compilação, os tipos que aceitam valores nulos daqueles que não aceitam. Isso ajuda a evitar erros relacionados ao uso de valores nulos, embora não elimine todas as possibilidades de ocorrência de *NullPointerException*.
+- **Menos Verbosidade:** Permite realizar a mesma tarefa de forma mais clara e com muito menos linhas de código. O Kotlin dispensa o uso obrigatório de ponto e vírgula, reduções em chaves, e gera automaticamente Getters, Setters, construtores e métodos especiais como toString().
+- **Controle de Mutabilidade:** Utiliza val (de value) para declarar referências que não podem ser reatribuídas e var (de variable) para aquelas que podem receber novos valores. Essa distinção deixa explícita a intenção de mutabilidade no próprio código.
+
+A seguir estão alguns vídeos para se aprofundar na linguagem:
+- [Kotlin For Java Developers Complete Course](https://www.youtube.com/watch?v=dMyRywABp_c)
+- [Kotlin Crash Course for Java Developers](https://www.youtube.com/watch?v=pXdY1B-KVJg)
+- [Full 2025 Kotlin Crash Course For Beginners](https://www.youtube.com/watch?v=dzUc9vrsldM)
+
+Visto que essa linguagem é bem recente (lançada em 2016), não há tanto  conteúdo em Kotlin quanto em Java, por exemplo. Isso torna a [documentação](https://kotlinlang.org/docs) crucial para encontrar informações sobre a linguagem.
+
+### Como usar Kotlin em um projeto Spring Boot Java
+
+Os conceitos de Spring Boot apresentados na seção anterior também se aplicam a projetos escritos em Kotlin. A organização da aplicação continua utilizando componentes como controladores, serviços e repositórios, o que muda principalmente é a linguagem utilizada para implementá-los.
+
+Para integrar Kotlin num sistema Java existente, basta adicionar os plugins do compilador kotlin ao arquivo `pom.xml` no Maven. Para utilizar todas as capacidades do Kotlin, você ainda deve adicionar as dependencias das bibliotecas padrão. O artigo a seguir dá explicações mais detalhadas para fazer a integração.
+
+- [Building web applications with Spring Boot and Kotlin](https://spring.io/guides/tutorials/spring-boot-kotlin)
+
+
+**Nota:** Para utilização de Kotlin e Java num mesmo projeto, a utilização do [IntelliJ](https://www.jetbrains.com/idea/) é quase compulsória. Isso acontece pois as extensões do VSCode não integram bem as linguagens, resultando em vários falsos positivos na detecção de erros.
+
 ___
 ## Android com Kotlin
 No passado, o aplicativo do projeto era desenvolvido utilizando [React-native](https://reactnative.dev/) para que funcionasse tanto para Android quanto iOS. Porém, atualmente, o app precisa rodar apenas em Tablets Galaxy S6, o que facilita bastante o desenvolvimento, uma vez que sabemos o device alvo. Nesse sentido, o desenvolvimento foi migrado para um app nativo em Android utilizando Kotlin.
